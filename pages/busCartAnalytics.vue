@@ -1,0 +1,3 @@
+<template>
+<analytics></analytics>
+</template>

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "birthdays",
+    "path": "/birthdays",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/birthdays.vue",
+    "chunkName": "pages/birthdays",
+    "_name": "_728f6e2f"
+  },
+  {
+    "name": "busCartAnalytics",
+    "path": "/busCartAnalytics",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/busCartAnalytics.vue",
+    "chunkName": "pages/busCartAnalytics",
+    "_name": "_414ff91d"
+  },
+  {
+    "name": "createBirthday",
+    "path": "/createBirthday",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/createBirthday.vue",
+    "chunkName": "pages/createBirthday",
+    "_name": "_08684d60"
+  },
+  {
+    "name": "statusBusCart",
+    "path": "/statusBusCart",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/statusBusCart.vue",
+    "chunkName": "pages/statusBusCart",
+    "_name": "_cb5a24f2"
+  },
+  {
+    "name": "updateBusCart",
+    "path": "/updateBusCart",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/updateBusCart.vue",
+    "chunkName": "pages/updateBusCart",
+    "_name": "_b57d2f60"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_623a53eb"
+  }
+]

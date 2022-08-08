@@ -30,32 +30,10 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
+
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+
     </v-app-bar>
     <v-main>
       <v-container>
@@ -104,14 +82,34 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'updateBusCart',
+          to: '/updateBusCart'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'analyticsBusCart',
+          to: '/busCartAnalytics'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'statusBusCart',
+          to: '/statusBusCart'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'createBirthday',
+          to: '/createBirthday'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'birthdays',
+          to: '/birthdays'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'TGHK Demo Apps'
     }
   }
 }

@@ -3,6 +3,11 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    script: [
+      {
+        src: "https://cdn.plot.ly/plotly-2.12.1.min.js"
+      }
+    ],
     titleTemplate: '%s - Learning',
     title: 'Learning',
     htmlAttrs: {
@@ -25,6 +30,10 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // { src: '~plugins/vue-plotly', mode: 'client' }
+    // {
+    //   // src: '~plugins/vue-plotly', mode: 'client'
+    // }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -47,6 +56,7 @@ export default {
   proxy: {
     "/api/": {
       target: "https://wfkacl.deta.dev/",
+      // target: "http://localhost:8000/",
       pathRewrite: { "^/api/": ""}
     }
   },
@@ -77,5 +87,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
   }
 }

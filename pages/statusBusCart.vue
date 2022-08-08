@@ -1,0 +1,3 @@
+<template>
+  <statusBusCart></statusBusCart>
+</template>

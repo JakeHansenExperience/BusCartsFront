@@ -5,51 +5,49 @@
             label="Bay"
             outlined
             :value= "bay"
+            @input="setSelectedBay"
           ></v-select>
   <div>
     <v-container class="backgroundCart"
 
     >
-
-      <v-row
+      <v-row class="justify-center"
       >
-        <v-col @click="key='Linens'"
+        <v-col cols=3 @click="key='Linens'"
         >
           <PartsLinens ></PartsLinens>
         </v-col>
-        <v-col @click="key = 'TopBin'">
+        <v-col cols=3 @click="key = 'TopBin'">
           <PartsTopBin ></PartsTopBin>
         </v-col>
-        <v-col @click="key = 'Silverware'">
+        <v-col cols=3 @click="key = 'Silverware'">
           <PartsSilverware></PartsSilverware>
         </v-col>
-        <v-col @click="key = 'Trash'">
+        </v-row>
+
+      <v-row class="justify-center">
+        <v-col cols=3 @click="key = 'Trash'">
           <PartsTrash ></PartsTrash>
         </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-        </v-col>
-        <v-col @click="key = 'Liquids'">
+        <v-col cols=3 @click="key = 'Liquids'">
           <PartsLiquids></PartsLiquids>
         </v-col>
-        <v-col @click="key = 'Second Shelf'">
+        <v-col cols=3 @click="key = 'Second Shelf'">
           <PartsSecondShelf></PartsSecondShelf>
         </v-col>
-        <v-col>
-        </v-col>
+
       </v-row>
-      <v-row>
-      <v-col>
+      <v-row class="justify-center">
+      <v-col cols=3>
+        <PartsTowels></PartsTowels>
       </v-col>
-      <v-col @click="key = 'BottomBin'">
+      <v-col cols=3 @click="key = 'BottomBin'">
         <PartsBottomBin></PartsBottomBin>
       </v-col>
-      <v-col @click="key = 'BottomShelf'">
+      <v-col cols=3 @click="key = 'BottomShelf'">
         <PartsBottomShelf></PartsBottomShelf>
       </v-col>
-      <v-col>
-      </v-col>
+
       </v-row>
     </v-container>
   </div>
@@ -73,7 +71,7 @@
   <v-btn
   elevation="2"
   block
-  @click="fetchSomething()"
+  @click="updateCart()"
 > Update </v-btn>
 
 
@@ -82,13 +80,14 @@
 
 
 <script>
+
 export default {
   data() {
     return {
       key: "",
       value: 0,
       bay: '',
-      bays: ['MainBar', 'Lounge', 'Terrace'],
+      bays: ['MainBar', 'Lounge', 'Terrace','105','111','115','123','128','132','205','211','215','223','228','232','305','311','315','323','328','332'],
       busCarts: {
           "id": 0,
           "Floor": 0,
@@ -107,14 +106,17 @@ export default {
     }
   },
   methods: {
-  async fetchSomething() {
+  async updateCart() {
     console.log(this.bay)
     const ip = await this.$axios.$put('/api/updateBusCart', {
-      bay: "Terrace",
+      bay: this.bay,
       key: this.key,
       val: this.value
     })
     this.ip = ip
+  },
+  setSelectedBay(value){
+    this.bay = value
   }
 }
 

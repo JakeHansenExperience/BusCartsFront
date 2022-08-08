@@ -1,0 +1,59 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "Analytics": {
+    "description": "Auto imported from components/analytics.vue"
+  },
+  "Birthdays": {
+    "description": "Auto imported from components/birthdays.vue"
+  },
+  "BusCart": {
+    "description": "Auto imported from components/busCart.vue"
+  },
+  "CreateBirthdayInput": {
+    "description": "Auto imported from components/createBirthdayInput.vue"
+  },
+  "StatusBusCart": {
+    "description": "Auto imported from components/statusBusCart.vue"
+  },
+  "Test": {
+    "description": "Auto imported from components/test.vue"
+  },
+  "PartsBottomBin": {
+    "description": "Auto imported from components/parts/BottomBin.vue"
+  },
+  "PartsBottomShelf": {
+    "description": "Auto imported from components/parts/BottomShelf.vue"
+  },
+  "PartsCart": {
+    "description": "Auto imported from components/parts/Cart.vue"
+  },
+  "PartsLinens": {
+    "description": "Auto imported from components/parts/Linens.vue"
+  },
+  "PartsLiquids": {
+    "description": "Auto imported from components/parts/Liquids.vue"
+  },
+  "PartsSecondShelf": {
+    "description": "Auto imported from components/parts/SecondShelf.vue"
+  },
+  "PartsSilverware": {
+    "description": "Auto imported from components/parts/Silverware.vue"
+  },
+  "PartsTopBin": {
+    "description": "Auto imported from components/parts/TopBin.vue"
+  },
+  "PartsTowels": {
+    "description": "Auto imported from components/parts/Towels.vue"
+  },
+  "PartsTrash": {
+    "description": "Auto imported from components/parts/Trash.vue"
+  }
+}
