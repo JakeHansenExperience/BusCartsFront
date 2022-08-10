@@ -10,6 +10,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
 - `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
 - `<Analytics>` | `<analytics>` (components/analytics.vue)
+- `<BallGazer>` | `<ball-gazer>` (components/ballGazer.vue)
 - `<Birthdays>` | `<birthdays>` (components/birthdays.vue)
 - `<BusCart>` | `<bus-cart>` (components/busCart.vue)
 - `<CreateBirthdayInput>` | `<create-birthday-input>` (components/createBirthdayInput.vue)

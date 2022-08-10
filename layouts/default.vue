@@ -104,6 +104,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'birthdays',
           to: '/birthdays'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'heyKirk',
+          to: '/heyKirk'
         }
       ],
       miniVariant: false,

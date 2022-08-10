@@ -21,6 +21,13 @@
     "_name": "_08684d60"
   },
   {
+    "name": "heyKirk",
+    "path": "/heyKirk",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/heyKirk.vue",
+    "chunkName": "pages/heyKirk",
+    "_name": "_efea08a8"
+  },
+  {
     "name": "statusBusCart",
     "path": "/statusBusCart",
     "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/statusBusCart.vue",

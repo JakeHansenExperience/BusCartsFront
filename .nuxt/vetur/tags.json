@@ -11,6 +11,9 @@
   "Analytics": {
     "description": "Auto imported from components/analytics.vue"
   },
+  "BallGazer": {
+    "description": "Auto imported from components/ballGazer.vue"
+  },
   "Birthdays": {
     "description": "Auto imported from components/birthdays.vue"
   },
