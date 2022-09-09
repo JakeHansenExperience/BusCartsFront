@@ -1,3 +1,0 @@
-<template>
-  <ballGazer></ballGazer>
-</template>

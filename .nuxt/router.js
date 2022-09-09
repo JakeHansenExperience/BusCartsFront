@@ -4,10 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _728f6e2f = () => interopDefault(import('../pages/birthdays.vue' /* webpackChunkName: "pages/birthdays" */))
-const _414ff91d = () => interopDefault(import('../pages/busCartAnalytics.vue' /* webpackChunkName: "pages/busCartAnalytics" */))
-const _08684d60 = () => interopDefault(import('../pages/createBirthday.vue' /* webpackChunkName: "pages/createBirthday" */))
-const _efea08a8 = () => interopDefault(import('../pages/heyKirk.vue' /* webpackChunkName: "pages/heyKirk" */))
+const _429f1af6 = () => interopDefault(import('../pages/caddieView.vue' /* webpackChunkName: "pages/caddieView" */))
+const _981775cc = () => interopDefault(import('../pages/dishpit.vue' /* webpackChunkName: "pages/dishpit" */))
 const _cb5a24f2 = () => interopDefault(import('../pages/statusBusCart.vue' /* webpackChunkName: "pages/statusBusCart" */))
 const _b57d2f60 = () => interopDefault(import('../pages/updateBusCart.vue' /* webpackChunkName: "pages/updateBusCart" */))
 const _623a53eb = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -24,21 +22,13 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/birthdays",
-    component: _728f6e2f,
-    name: "birthdays"
+    path: "/caddieView",
+    component: _429f1af6,
+    name: "caddieView"
   }, {
-    path: "/busCartAnalytics",
-    component: _414ff91d,
-    name: "busCartAnalytics"
-  }, {
-    path: "/createBirthday",
-    component: _08684d60,
-    name: "createBirthday"
-  }, {
-    path: "/heyKirk",
-    component: _efea08a8,
-    name: "heyKirk"
+    path: "/dishpit",
+    component: _981775cc,
+    name: "dishpit"
   }, {
     path: "/statusBusCart",
     component: _cb5a24f2,

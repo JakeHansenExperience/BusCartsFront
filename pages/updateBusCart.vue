@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <busCart></busCart>
+  <updateBusCartRYG  ></updateBusCartRYG>
 
 </div>
 </template>

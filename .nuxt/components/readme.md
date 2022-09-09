@@ -6,16 +6,16 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
-- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
-- `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
 - `<Analytics>` | `<analytics>` (components/analytics.vue)
-- `<BallGazer>` | `<ball-gazer>` (components/ballGazer.vue)
-- `<Birthdays>` | `<birthdays>` (components/birthdays.vue)
 - `<BusCart>` | `<bus-cart>` (components/busCart.vue)
-- `<CreateBirthdayInput>` | `<create-birthday-input>` (components/createBirthdayInput.vue)
+- `<BuscartPicker>` | `<buscart-picker>` (components/buscartPicker.vue)
+- `<CaddieView>` | `<caddie-view>` (components/caddieView.vue)
+- `<DishpitView>` | `<dishpit-view>` (components/dishpitView.vue)
+- `<GenericVueComponent>` | `<generic-vue-component>` (components/genericVueComponent.vue)
+- `<RedYellowGreenSelector>` | `<red-yellow-green-selector>` (components/redYellowGreenSelector.vue)
 - `<StatusBusCart>` | `<status-bus-cart>` (components/statusBusCart.vue)
 - `<Test>` | `<test>` (components/test.vue)
+- `<UpdateBusCartRYG>` | `<update-bus-cart-r-y-g>` (components/updateBusCartRYG.vue)
 - `<PartsBottomBin>` | `<parts-bottom-bin>` (components/parts/BottomBin.vue)
 - `<PartsBottomShelf>` | `<parts-bottom-shelf>` (components/parts/BottomShelf.vue)
 - `<PartsCart>` | `<parts-cart>` (components/parts/Cart.vue)

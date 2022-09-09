@@ -1,3 +1,0 @@
-<template>
-  <createBirthdayInput></createBirthdayInput>
-</template>

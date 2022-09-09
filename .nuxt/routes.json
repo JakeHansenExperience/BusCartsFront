@@ -1,31 +1,17 @@
 [
   {
-    "name": "birthdays",
-    "path": "/birthdays",
-    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/birthdays.vue",
-    "chunkName": "pages/birthdays",
-    "_name": "_728f6e2f"
+    "name": "caddieView",
+    "path": "/caddieView",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/caddieView.vue",
+    "chunkName": "pages/caddieView",
+    "_name": "_429f1af6"
   },
   {
-    "name": "busCartAnalytics",
-    "path": "/busCartAnalytics",
-    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/busCartAnalytics.vue",
-    "chunkName": "pages/busCartAnalytics",
-    "_name": "_414ff91d"
-  },
-  {
-    "name": "createBirthday",
-    "path": "/createBirthday",
-    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/createBirthday.vue",
-    "chunkName": "pages/createBirthday",
-    "_name": "_08684d60"
-  },
-  {
-    "name": "heyKirk",
-    "path": "/heyKirk",
-    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/heyKirk.vue",
-    "chunkName": "pages/heyKirk",
-    "_name": "_efea08a8"
+    "name": "dishpit",
+    "path": "/dishpit",
+    "component": "/Users/jacobhansen/NoFap/PLAYGROUNDS/BusCartsFront/pages/dishpit.vue",
+    "chunkName": "pages/dishpit",
+    "_name": "_981775cc"
   },
   {
     "name": "statusBusCart",

@@ -1,0 +1,3 @@
+<template>
+  <dishpitView></dishpitView>
+</template>

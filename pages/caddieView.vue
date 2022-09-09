@@ -1,0 +1,3 @@
+<template>
+<caddieView></caddieView>
+</template>

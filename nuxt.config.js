@@ -55,8 +55,8 @@ export default {
   },
   proxy: {
     "/api/": {
-      target: "https://wfkacl.deta.dev/",
-      // target: "http://localhost:8000/",
+      // target: "https://wfkacl.deta.dev/",
+      target: "http://localhost:8000/",
       pathRewrite: { "^/api/": ""}
     }
   },

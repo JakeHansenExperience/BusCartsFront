@@ -61,7 +61,7 @@
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }} Frog Enterprises LLC</span>
     </v-footer>
   </v-app>
 </template>
@@ -87,34 +87,19 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'analyticsBusCart',
-          to: '/busCartAnalytics'
+          title: 'Dishpit View',
+          to: '/dishpit'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'statusBusCart',
-          to: '/statusBusCart'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'createBirthday',
-          to: '/createBirthday'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'birthdays',
-          to: '/birthdays'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'heyKirk',
-          to: '/heyKirk'
+          title: 'Caddie View',
+          to: '/caddieView'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'TGHK Demo Apps'
+      title: 'One Team'
     }
   }
 }

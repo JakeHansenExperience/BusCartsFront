@@ -1,33 +1,33 @@
 {
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
-  },
-  "VuetifyLogo": {
-    "description": "Auto imported from components/VuetifyLogo.vue"
-  },
   "Analytics": {
     "description": "Auto imported from components/analytics.vue"
-  },
-  "BallGazer": {
-    "description": "Auto imported from components/ballGazer.vue"
-  },
-  "Birthdays": {
-    "description": "Auto imported from components/birthdays.vue"
   },
   "BusCart": {
     "description": "Auto imported from components/busCart.vue"
   },
-  "CreateBirthdayInput": {
-    "description": "Auto imported from components/createBirthdayInput.vue"
+  "BuscartPicker": {
+    "description": "Auto imported from components/buscartPicker.vue"
+  },
+  "CaddieView": {
+    "description": "Auto imported from components/caddieView.vue"
+  },
+  "DishpitView": {
+    "description": "Auto imported from components/dishpitView.vue"
+  },
+  "GenericVueComponent": {
+    "description": "Auto imported from components/genericVueComponent.vue"
+  },
+  "RedYellowGreenSelector": {
+    "description": "Auto imported from components/redYellowGreenSelector.vue"
   },
   "StatusBusCart": {
     "description": "Auto imported from components/statusBusCart.vue"
   },
   "Test": {
     "description": "Auto imported from components/test.vue"
+  },
+  "UpdateBusCartRYG": {
+    "description": "Auto imported from components/updateBusCartRYG.vue"
   },
   "PartsBottomBin": {
     "description": "Auto imported from components/parts/BottomBin.vue"

@@ -1,3 +1,0 @@
-<template>
-  <birthdays></birthdays>
-</template>
